@@ -4,7 +4,7 @@ using namespace std;
 
 int n,num,xor_result=0,xor_bit_arr[16]={},msb_pos = 16;
 
-// 특정 값의 하위 16비트 중 i번 비트가 켜져있다면 배열의 i번 값과 xor 연산함
+// 특정 값의 하위 16비트 중 i번 비트가 켜져있다면 배열의 i번 값과 xor 연산함 
 void xor_calc(int tmp) {
     for (int i=0; i<16; i++) {
         if (tmp & 1<<i) {
