@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int n,num,xor_result=0,xor_bit_arr[16]={},msb_pos = 16;
@@ -16,7 +15,6 @@ void xor_calc(int tmp) {
 int main() {
 
     cin >> n;
-    
     for (int i=1; i<=n; i++) {
         xor_calc(i);
     }
